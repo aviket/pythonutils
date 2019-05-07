@@ -27,7 +27,7 @@ class MyWindow(QtWidgets.QWidget):
       self.pushbutton = self.ui.pushButton
       self.slider1 = self.ui.horizontalSlider
       self.labelslider = self.ui.label_3
-      api_key = "NJzHnB_ydiT7FL3nFpMx"
+      api_key = __Your__API_Key__
       uurl = "https://www.quandl.com/api/v3/datasets/NSE/NIFTY_50.json?api_key=" + api_key
       r = requests.get(uurl)
       jsondat = r.content
